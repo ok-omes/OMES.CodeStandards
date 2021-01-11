@@ -22,5 +22,11 @@ These settings are comprised of various ESLint plugins, you can visis a plugin d
 * [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks)
 * [prettier](https://www.npmjs.com/package/prettier)
 
+## With VS Code
+1. Install the [ESLint package](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+2. Now we need to setup some VS Code settings via `Code/File `→ `Preferences` → `Settings`. It's easier to enter these settings while editing the `settings.json` file, so click the Open (Open Settings) icon in the top right corner.
+3. Add the [following](./.vscode/settings.json) to the `settings.json`.
+
+
 ## Considerations
 This was built with [React](https://reactjs.org/) in mind, if you are needing to use with a [Node](https://nodejs.org/en/), [Angular](https://angular.io/) or [Vue](https://vuejs.org/) project please think about submitting a PR with the correct changes.
