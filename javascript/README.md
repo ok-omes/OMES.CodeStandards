@@ -23,4 +23,4 @@ These settings are comprised of various ESLint plugins, you can visis a plugin d
 * [prettier](https://www.npmjs.com/package/prettier)
 
 ## Considerations
-This was built with [React](https://reactjs.org/) in mind, if you are needing to use with a [Node](https://nodejs.org/en/), [Angular](https://angular.io/) or [Vue](https://vuejs.org/) project please think about submitting a PR witht he correct changes.
+This was built with [React](https://reactjs.org/) in mind, if you are needing to use with a [Node](https://nodejs.org/en/), [Angular](https://angular.io/) or [Vue](https://vuejs.org/) project please think about submitting a PR with the correct changes.
