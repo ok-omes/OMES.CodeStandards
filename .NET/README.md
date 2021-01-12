@@ -19,4 +19,3 @@ For formatting options look at the `.editoconfig` and look up the rule on MSDN
 All .NET and C# `.editorconfig` options can be found [here](https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/formatting-rules)
 
 If there is something that you would like to include or extend outside of what `.editconfig` can do out of the box the suggesterd option is [Resharper](https://www.jetbrains.com/help/resharper/EditorConfig_Index.html)
-
