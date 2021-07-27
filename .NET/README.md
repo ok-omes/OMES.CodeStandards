@@ -17,7 +17,7 @@ For formatting options look at the `.editoconfig` and look up the rule on MSDN
   * [Insterfaces must start with an I](https://github.com/ok-omes/OMES.CodeStandards/blob/main/.NET/.editorconfig#L217)
 
 ## Design Guidelines
-When it comes to .NET we need to adhear to the same stylicitc decisions that is in the framework itself. You can read more about the [.NET Design Guidelines](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/). This doc expands on the following topics.
+When it comes to .NET we need to adhear to the same stylistic decisions that is in the framework itself. You can read more about the [.NET Design Guidelines](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/). This doc expands on the following topics.
 * [Naming Guidelines](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/naming-guidelines)
 * [Type Design Guidelines](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/type)
 * [Member Design Guidelines](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/member)
