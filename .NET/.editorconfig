@@ -13,6 +13,7 @@ indent_style = space
 indent_size = 4
 insert_final_newline = false
 trim_trailing_whitespace = true
+tab_width = 4
 
 #########################
 # File Extension Settings
@@ -136,6 +137,12 @@ csharp_prefer_braces = true:warning
 csharp_style_deconstructed_variable_declaration = true:warning
 csharp_style_pattern_local_over_anonymous_function = true:warning
 csharp_style_prefer_switch_expression = true:suggestion
+csharp_style_namespace_declarations = block_scoped:silent
+csharp_style_prefer_method_group_conversion = true:silent
+csharp_style_prefer_top_level_statements = true:silent
+csharp_style_unused_value_expression_statement_preference = discard_variable:none
+dotnet_style_prefer_simplified_boolean_expressions = true:suggestion
+dotnet_style_operator_placement_when_wrapping = beginning_of_line
 
 #############################
 # Formatting Conventions
@@ -143,10 +150,12 @@ csharp_style_prefer_switch_expression = true:suggestion
 #############################
 
 [*.{cs,csx,cake,vb}]
-# Organize usings
+# Usings
 # https://docs.microsoft.com/en-us/visualstudio/ide/editorconfig-formatting-conventions?view=vs-2019#organize-using-directives
 dotnet_sort_system_directives_first = true
 dotnet_separate_import_directive_groups = true
+csharp_using_directive_placement = outside_namespace:silent
+csharp_prefer_simple_using_statement = true:suggestion
 
 [*.{cs,csx,cake}]
 # New-line options
@@ -177,7 +186,6 @@ csharp_preserve_single_line_statements = false
 # .NET Naming conventions
 # https://docs.microsoft.com/en-us/visualstudio/ide/editorconfig-naming-conventions?view=vs-2019
 #########################
-
 [*.{cs,csx,cake,vb}]
 # ensure that async methods end in Async
 dotnet_naming_rule.async_methods_end_in_async.symbols = any_async_methods
