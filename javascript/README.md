@@ -6,12 +6,12 @@
 The recommended use is of ESLint and then Prettier through a ESLint plugin. 
 
 ## Usage
-In the sample `package.json` is a list of dev dependiecies to use to get the recommended use wired up to a project.
+In the sample `package.json` is a list of dev dependencies to use to get the recommended use wired up to a project.
 
 There is also a `.eslintrc.js` file that you will need to put in the root of your project.
 
 ## Extend
-These settings are comprised of various ESLint plugins, you can visis a plugin documantation to look for something not implemented.
+These settings are comprised of various ESLint plugins, you can visit the plugin documentation to look for something not implemented.
 * [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb)
 * [eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier)
 * [eslint-plugin-html](https://www.npmjs.com/package/eslint-plugin-html)
